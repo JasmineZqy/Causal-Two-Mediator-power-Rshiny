@@ -19,7 +19,6 @@ install.packages(c(
 shiny::runApp("path/to/downloaded/folder")
 
 # Or run the app directly from the R console
-library(shinyBS)
 shiny::runGitHub("Causal-Two-Mediator-power-Rshiny", "JasmineZqy")
 
 
