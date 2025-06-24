@@ -1,2 +1,0 @@
-library(shinyBS)
-shiny::runGitHub("Two-Med-Causal-Power-Analysis", "JasmineZqy")
