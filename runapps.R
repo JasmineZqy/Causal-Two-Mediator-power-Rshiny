@@ -1,3 +1,6 @@
+library(shiny)
+library(shinyBS)
+
 # rsconnect::deployApp()
 # Source UI and server
 source("ui.R")
