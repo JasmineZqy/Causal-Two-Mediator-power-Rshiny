@@ -9,7 +9,7 @@ ui <- fluidPage(
     fluidRow(
         column(12, align = "center",
                h3("Monte Carlo Power Analysis for Interventional Indirect Effects with Two Mediators"),
-               p("Developed by Xiao Liu")
+               p("Developed by Jasmine Zeng, Xiao Liu")
         )
     ),
 

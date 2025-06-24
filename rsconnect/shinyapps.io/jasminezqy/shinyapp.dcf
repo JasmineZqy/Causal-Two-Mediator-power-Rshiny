@@ -1,0 +1,10 @@
+name: shinyapp
+title:
+username: jasminezqy
+account: jasminezqy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14981591
+bundleId: 10511209
+url: https://jasminezqy.shinyapps.io/shinyapp/
+version: 1
