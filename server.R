@@ -1,11 +1,12 @@
+library(shiny)
+library(shinyBS)
+
 # Core tidyverse packages: includes dplyr, ggplot2, purr.
 library(tidyverse)
 
 # Additional required packages
 library(glue)
 library(cubature)
-library(shiny)
-library(shinyBS)
 library(DT)
 library(mvtnorm)     # For multivariate normal functions
 library(future)      # For asynchronous processing
