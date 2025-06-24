@@ -2,7 +2,7 @@
 
 Shiny App: Power Analysis for Two-Mediator Causal Mediation Models
 
-The online app can be accessed here: [https://yourname.shinyapps.io/TwoMedCausalApp/](https://yourname.shinyapps.io/TwoMedCausalApp/)  
+The online app can be accessed here: [https://jasminezqy.shinyapps.io/shinyapp/](https://jasminezqy.shinyapps.io/shinyapp/)  
 
 
 The app can also be run locally using the following code in **R**:
@@ -21,3 +21,5 @@ shiny::runApp("path/to/downloaded/folder")
 # Or run the app directly from the R console
 library(shinyBS)
 shiny::runGitHub("Two-Med-Causal-Power-Analysis", "JasmineZqy")
+
+

@@ -4,6 +4,10 @@ library(shinyBS)
 # Core tidyverse packages: includes dplyr, ggplot2, purr.
 library(tidyverse)
 
+# Source all R scripts inside the "function/" directory
+function_files <- list.files("function", pattern = "\\.R$", full.names = TRUE)
+sapply(function_files, source)
+
 # Additional required packages
 library(glue)
 library(cubature)
@@ -128,4 +132,11 @@ server <- function(input, output, session) {
         }
     )
 }
+
+
+
+# Run Apps
+# rsconnect::deployApp()
+# Launch the app
+# shinyApp(ui = ui, server = server)
 
