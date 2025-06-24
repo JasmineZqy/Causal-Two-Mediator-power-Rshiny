@@ -15,8 +15,9 @@ install.packages(c(
 ))
 
 
-# Run the app (if cloned from GitHub)
+# Run the app (if downloaded from GitHub)
 shiny::runApp("path/to/downloaded/folder")
 
 # Or run the app directly from the R console
+library(shinyBS)
 shiny::runGitHub("Two-Med-Causal-Power-Analysis", "JasmineZqy")
